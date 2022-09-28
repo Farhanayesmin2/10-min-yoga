@@ -1,11 +1,16 @@
 import React from 'react';
 
-const Info = (props) => {
+const Info = ({items}) => {
 
-    const {handleAddToInfo}
+    let times = 0;
+   
+    for (const item of items) {
+        times = times + item.time;  
+    }
     return (
         <div>
-            
+            <h1>Helllo</h1>
+            <p>Time:{times} </p>
         </div>
     );
 };

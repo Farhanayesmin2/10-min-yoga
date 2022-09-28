@@ -1,9 +1,9 @@
 import React from 'react';
 
 const Card = (props) => {
-    const { card ,handleAddToCart} = props;
+    const { card ,handleAddToInfo} = props;
     const { name, id, time, img,calorie,ratings } = card;
-    console.log(props);
+   
     return (
        
         <div  >
@@ -17,7 +17,7 @@ const Card = (props) => {
                     <p className='font-semibold'>Time Required: {time}s</p>
                     <p>Ratings: {ratings} <span> </span>  </p>
     <div className="card-actions">
-      <button onClick={() => handleAddToCart(card)} className="btn btn-primary items-center w-full">Add To List</button>
+      <button onClick={() => handleAddToInfo(card)} className="btn btn-primary items-center w-full">Add To List</button>
     </div>
   </div>
                 
