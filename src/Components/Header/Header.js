@@ -3,7 +3,7 @@ import React from 'react';
 const Header = () => {
     return (
         <div>
-            <div className="navbar bg-violet-200 text-indigo-900">
+            <div className="navbar bg-violet-200 text-indigo-900 px-14">
   <div className="navbar-start">
     <div className="dropdown">
       <label tabIndex={0} className="btn btn-ghost btn-circle">
