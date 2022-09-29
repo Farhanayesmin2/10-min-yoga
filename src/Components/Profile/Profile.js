@@ -35,9 +35,18 @@ const Profile = () => {
                 </div>
 
             </div>
-
+            {/* Add to break */}
+            <div className=' my-12'>    <h1 className='pb-5 font-bold text-xl'>Add a Break Time</h1>
+            <div className='bg-indigo-100 py-5 border-white border-1   hover:border-indigo-600 border-2 flex'> 
+            
+            <button className="btn btn-outline btn-circle mx-1 ">10s</button>
+<button className="btn btn-outline btn-primary btn-circle mx-1 ">20s</button>
+<button className="btn btn-outline btn-secondary btn-circle mx-1">30s</button>
+<button className="btn btn-outline btn-accent btn-circle mx-1">40s</button>
+<button className="btn btn-outline btn-info btn-circle mx-1">50s</button>
+</div>
                 </div>
-          
+                </div>
            
    
     );
