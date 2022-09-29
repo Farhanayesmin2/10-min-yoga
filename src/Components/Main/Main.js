@@ -1,3 +1,5 @@
+import { faDumbbell } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react';
 import Card from '../Card/Card';
 import Info from '../Info/Info';
@@ -22,8 +24,10 @@ const Main = () => {
     }
     
     return (
-        
-            <div className='main-container grid grid-cols-12 gap-4 relative mt-12'>
+        <div>
+            <h1 className='text-3xl ml-12 mb-5 mt-12 text-violet-800 font-semibold font-serif '> <FontAwesomeIcon icon={faDumbbell} ></FontAwesomeIcon>    10 Minute Yoga</h1>  
+            <h1 className='text-xl mx-12 mb-0 text-violet-400 font-semibold font-serif'>Choose Today’s Yoga</h1>
+            <div className='main-container grid grid-cols-12 gap-4 relative mt-5'>
             
 
                 
@@ -43,7 +47,7 @@ const Main = () => {
                 <Info items={items}></Info>
             </div>
             </div>
-            
+            </div>
           
     );
 };

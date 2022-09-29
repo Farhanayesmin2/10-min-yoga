@@ -19,8 +19,9 @@ const Info = ({ items }) => {
     return (
         <div>
             <Profile></Profile>
-            <div className='bg-indigo-100 py-5 border-white border-1   hover:border-indigo-600 border-2 '>
-            <p className='mx-6'>Exercise Time:   <span className=' ml-8 text-gray-400'> {times} seconds </span> </p>
+            {/* Yoga time */}
+            <div className='bg-indigo-100 py-5 border-white border-1   hover:border-indigo-600 border-2 my-5'>
+            <p className='mx-6'>Yoga Time:   <span className=' ml-8 text-gray-400'> {times} seconds </span> </p>
             </div>
             <div className='my-6'>
                 <button onClick={notify} className="btn btn-outline btn-primary w-full mx-1">Activity Completed</button>

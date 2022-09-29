@@ -19,7 +19,7 @@ const Header = () => {
     </div>
   </div>
   <div className="navbar-center">
-    <a className="btn btn-ghost normal-case text-2xl text-white-800 font-serif">10 Minute Yoga Center</a>
+    <a className="btn btn-ghost normal-case text-3xl text-green-800 font-serif">10 Minute Yoga Center</a>
   </div>
   <div className="navbar-end">
     <button className="btn btn-ghost btn-circle ">
