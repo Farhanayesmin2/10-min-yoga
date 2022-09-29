@@ -30,14 +30,14 @@ const Profile = () => {
                 <h1>Height</h1>
                 </div>
                 <div className='px-5'>
-                    <h1 className='font-semibold'>25</h1>
+                    <h1 className='font-semibold'>75</h1>
                 <h1>Age</h1>
                 </div>
 
             </div>
             {/* Add to break */}
             <div className=' my-12'>    <h1 className='pb-5 font-bold text-xl'>Add a Break Time</h1>
-            <div className='bg-indigo-100 py-5 border-white border-1   hover:border-indigo-600 border-2 flex'> 
+            <div className='bg-indigo-100 py-5 border-white border-1   hover:border-indigo-600 border-2 '> 
             
             <button className="btn btn-outline btn-circle mx-1 ">10s</button>
 <button className="btn btn-outline btn-primary btn-circle mx-1 ">20s</button>
@@ -45,8 +45,18 @@ const Profile = () => {
 <button className="btn btn-outline btn-accent btn-circle mx-1">40s</button>
 <button className="btn btn-outline btn-info btn-circle mx-1">50s</button>
 </div>
+            </div>
+        
+            {/* Yoga Details */}
+            <div>
+            <div >    <h1 className='pb-5 font-bold text-xl'>Yoga Time</h1>
                 </div>
-                </div>
+                
+            </div>
+      
+        </div>
+         
+                
            
    
     );
