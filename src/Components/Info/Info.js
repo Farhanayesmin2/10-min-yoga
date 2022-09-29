@@ -1,4 +1,5 @@
 import React from 'react';
+import Profile from '../Profile/Profile';
 
 const Info = ({items}) => {
 
@@ -9,8 +10,8 @@ const Info = ({items}) => {
     }
     return (
         <div>
-            <h1>Helllo</h1>
-            <p>Time:{times} </p>
+     <Profile></Profile>
+            <p>Time:{times}s </p>
         </div>
     );
 };

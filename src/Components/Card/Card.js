@@ -17,7 +17,7 @@ const Card = (props) => {
                     <p className='font-semibold'>Time Required: {time}s</p>
                     <p>Ratings: {ratings} <span> </span>  </p>
     <div className="card-actions">
-      <button onClick={() => handleAddToInfo(card)} className="btn btn-primary items-center w-full">Add To List</button>
+      <button onClick={() => handleAddToInfo(card)} className="btn bg-violet-800  items-center w-full hover:bg-green-800">Add To List</button>
     </div>
   </div>
                 

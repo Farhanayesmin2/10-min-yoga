@@ -38,8 +38,8 @@ const Main = () => {
                  </div>
                 </div>
                 
-            <div className="info-container bg-red-200 w-25 col-span-3 font-serif p-5 font-serif  sticky top-0  right-0 ">
-                <h1>Card Information</h1>
+            <div className="info-container bg-green-200 w-25 col-span-3 font-serif p-5 font-serif  sticky top-0  right-0 ">
+              
                 <Info items={items}></Info>
             </div>
             </div>
